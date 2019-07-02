@@ -1,0 +1,95 @@
+body{font-family: 微軟正黑體;}
+.aHeader{margin-top: 20px;}
+
+.Ink-logo{font-family: 微軟正黑體; color: #1E90E1;text-decoration: none;letter-spacing: 7px;margin-left: 30px;}
+.Ink-nav{text-decoration: none;	font-size: 14px; color: #a5a0a0; letter-spacing: 2px;}
+
+.bNav-text{display: inline-block;}
+.bLogo{display: inline-block;}
+.bNav{display: inline-block; word-spacing: 24px;}
+.bNav-text.Home {margin-left: 67px;}
+.ipt-search {border-style: none;border-bottom: 1px solid #d3cdcd;}
+.bSearch{display: inline-block;float: right;}
+
+.ul-subNav {list-style: none;}
+.Ink-subNav {text-decoration: none;}
+.bText-pic{position: relative;}
+.aBanner.bText h1{position: absolute;}
+.bText-pic {width: 1500px;height: 751px;margin-top: 30px;}
+.aBanner .bText h1 {position: absolute;z-index: 1;margin: 150px 500px 70px 500px;font-size: 60px;font-family: sans-serif;color: white;line-height: 85px;word-spacing: 2px;}
+.aBanner .bText h1 span {margin-left: 127px;}
+.Ink-Video {display: block;background-color: #c6c2c2;width: 70px;height: 70px;text-align: center;border-radius: 50%;position: absolute;top: 500px;left: 700px;line-height: 3.5;transform: rotate(-90deg);transition: 1s;}
+.Ink-Video:hover {width: 80px;height: 80px;background-color: white;line-height: 4;}
+.Video-text {position: absolute;top: 594px;left: 630px;font-size: 40px;color: white;font-family: sans-serif;font-weight: bold;}
+
+.Ink-img {
+    display: block;
+    width: 100px;
+    height: 100px;
+    border: 2px solid #5dc0ed;
+    margin: 50px;
+    margin-left: 113px;
+    transform: rotate(45deg);
+    border-radius: 10px;
+}
+
+.bContent {
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    vertical-align: middle;
+}
+
+.aMainer {
+    text-align: center;
+    margin-top: 50px;
+}
+.bPic-fitness {
+    width: 900px;
+}
+
+.aPage {
+    margin-top: 100px;
+    display: inline-block;
+}
+
+.aPage .bArtical h2 {
+    font-family: sans-serif;
+}
+.aPage .bArtical h6 {
+    line-height: 1.5;
+    font-family: times new rome;
+    font-size: 14px;
+}
+.bPic {
+    display: inline-block;
+}
+
+.bArtical {
+    width: 400px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 70px;
+}
+.bBlue-tit {
+    width: 50px;
+}
+
+.bBlue-text {
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    margin-top: 50px;
+    text-align: center;
+    margin-left: 5px;
+}
+
+.aBluecolum {
+    background-color: #2e50ed;
+    color: white;
+    display: inline-block;
+    width: 1500px;
+    margin-top: 0px;
+    padding-top: 0px;
+    text-align: center;
+}
