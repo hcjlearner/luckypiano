@@ -1,25 +1,25 @@
 body{font-family: 微軟正黑體;}
-.aHeader{margin-top: 20px;}
+.aHeader{margin-top: 20px; height: 50px;}
 
 .Ink-logo{font-family: 微軟正黑體; color: #1E90E1;text-decoration: none;letter-spacing: 7px;margin-left: 30px;}
 .Ink-nav{text-decoration: none;	font-size: 14px; color: #a5a0a0; letter-spacing: 2px;}
 
-.bNav-text{display: inline-block;}
+.bNav-text{display: inline-block; vertical-align: top;}
 .bLogo{display: inline-block;}
 .bNav{display: inline-block; word-spacing: 24px;}
 .bNav-text.Home {margin-left: 67px;}
 .ipt-search {border-style: none;border-bottom: 1px solid #d3cdcd;}
-.bSearch{display: inline-block;float: right;}
+.bSearch{display: inline-block; width: 200px; float: right;}
+.ipt-search{background: url(../picture/glass.png) left no-repeat; background-size: 20px 20px; padding-left: 20px;}
 
-.ul-subNav {list-style: none;}
+.ul-subNav {list-style: none; background-color: black;}
 .Ink-subNav {text-decoration: none;}
 .bText-pic{position: relative;}
-.aBanner.bText h1{position: absolute;}
+.aBanner .bText h1{position: absolute;z-index: 1;margin: 150px 500px 70px 500px;font-size: 60px;font-family: sans-serif;color: white;line-height: 85px;word-spacing: 2px;}
 .bText-pic {width: 1500px;height: 751px;margin-top: 30px;}
-.aBanner .bText h1 {position: absolute;z-index: 1;margin: 150px 500px 70px 500px;font-size: 60px;font-family: sans-serif;color: white;line-height: 85px;word-spacing: 2px;}
 .aBanner .bText h1 span {margin-left: 127px;}
-.Ink-Video {display: block;background-color: #c6c2c2;width: 70px;height: 70px;text-align: center;border-radius: 50%;position: absolute;top: 500px;left: 700px;line-height: 3.5;transform: rotate(-90deg);transition: 1s;}
-.Ink-Video:hover {width: 80px;height: 80px;background-color: white;line-height: 4;}
+.Ink-Video {display: inline-block;background-color: #c6c2c2;width: 70px;height: 70px;text-align: center;border-radius: 50%;position: absolute;top: 500px;left: 700px;line-height: 70px;transform: rotate(-90deg);transition: 0.3s;}
+.Ink-Video:hover {width: 80px;height: 80px;background-color: white;line-height: 80px; margin-left: -5px;margin-top: -5px;}
 .Video-text {position: absolute;top: 594px;left: 630px;font-size: 40px;color: white;font-family: sans-serif;font-weight: bold;}
 
 .Ink-img {
